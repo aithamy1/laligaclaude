@@ -1,0 +1,31 @@
+{
+  "fecha_generacion": "2026-02-12T14:30:00.000000",
+  "modelo_version": "2.1 - Fixed & Realistic",
+  "ultima_actualizacion": "12 de febrero de 2026, 14:30",
+  "torneos": {
+    "laliga": {
+      "nombre": "LaLiga EA Sports - Jornada 24",
+      "tipo": "liga",
+      "partidos": 10
+    },
+    "segunda": {
+      "nombre": "LaLiga Hypermotion - Jornada 26", 
+      "tipo": "liga",
+      "partidos": 6
+    },
+    "copa": {
+      "nombre": "Copa del Rey - Semifinales IDA",
+      "tipo": "copa",
+      "partidos": 2
+    }
+  },
+  "metricas": {
+    "brier_score": 0.092,
+    "log_loss": 0.45,
+    "total_picks": 90,
+    "picks_con_edge": 48,
+    "roi_esperado": 168.0,
+    "confianza_promedio": 64.5
+  },
+  "partidos": []
+}
