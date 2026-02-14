@@ -37,6 +37,20 @@ function asNumber(value: unknown, fallback = 0): number {
   return Number.isFinite(n) ? n : fallback
 }
 
+function fixText(value: unknown): string {
+  const text = String(value ?? '')
+  if (!text) return ''
+  try {
+    const encoded = text
+      .split('')
+      .map((ch) => `%${ch.charCodeAt(0).toString(16).padStart(2, '0')}`)
+      .join('')
+    return decodeURIComponent(encoded)
+  } catch {
+    return text
+  }
+}
+
 function normalizeCombinadas(picksRoot: any, extraCombinadas: any): NormalizedCombinada[] {
   if (extraCombinadas?.combinadas && Array.isArray(extraCombinadas.combinadas)) {
     return extraCombinadas.combinadas.map((c: any, idx: number) => ({
@@ -185,7 +199,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-white">ProBets AI</h1>
-              <p className="text-xs text-slate-400">Modelo {picksData.modelo_version}</p>
+              <p className="text-xs text-slate-400">Modelo {fixText(picksData.modelo_version)}</p>
             </div>
           </div>
 
@@ -283,7 +297,7 @@ export default function Home() {
                   <article key={partido.id ?? idx} className="rounded-xl border border-slate-700 bg-slate-900/50 p-4">
                     <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
                       <h3 className="text-lg font-semibold text-white">
-                        {partido.local} vs {partido.visitante}
+                        {fixText(partido.local)} vs {fixText(partido.visitante)}
                       </h3>
                       <div className="flex items-center gap-3 text-xs text-slate-400">
                         <span className="inline-flex items-center gap-1">
@@ -307,8 +321,8 @@ export default function Home() {
                           key={pIdx}
                           className="grid grid-cols-1 gap-2 rounded-lg border border-slate-700 bg-slate-800/40 p-3 md:grid-cols-6"
                         >
-                          <p className="md:col-span-2 text-sm text-slate-300">{pick.tipo}</p>
-                          <p className="md:col-span-2 text-sm font-semibold text-white">{pick.prediccion}</p>
+                          <p className="md:col-span-2 text-sm text-slate-300">{fixText(pick.tipo)}</p>
+                          <p className="md:col-span-2 text-sm font-semibold text-white">{fixText(pick.prediccion)}</p>
                           <p className="text-sm text-emerald-400">{asNumber(pick.confianza).toFixed(1)}%</p>
                           <div className="text-right text-xs text-slate-300">
                             <div>Cuota {pick.cuota_mercado ?? '-'}</div>
@@ -330,7 +344,7 @@ export default function Home() {
             {combinadasData.map((combo) => (
               <article key={combo.id} className="rounded-xl border border-slate-700 bg-slate-900/50 p-4">
                 <div className="mb-2 flex items-start justify-between gap-3">
-                  <h3 className="text-lg font-semibold text-white">{combo.nombre}</h3>
+                  <h3 className="text-lg font-semibold text-white">{fixText(combo.nombre)}</h3>
                   <div className="text-right text-sm">
                     <p className="text-amber-400">Cuota {combo.cuota_total.toFixed(2)}</p>
                     <p className="text-emerald-400">Prob. {combo.probabilidad.toFixed(1)}%</p>
@@ -339,8 +353,8 @@ export default function Home() {
                 <div className="space-y-2">
                   {combo.picks.map((pick, idx) => (
                     <div key={idx} className="rounded-md border border-slate-700 bg-slate-800/40 p-3">
-                      <p className="text-sm font-semibold text-white">{pick.partido}</p>
-                      <p className="text-sm text-slate-300">{pick.pick}</p>
+                      <p className="text-sm font-semibold text-white">{fixText(pick.partido)}</p>
+                      <p className="text-sm text-slate-300">{fixText(pick.pick)}</p>
                     </div>
                   ))}
                 </div>
@@ -376,7 +390,7 @@ export default function Home() {
                 <article key={item.id} className="rounded-xl border border-slate-700 bg-slate-900/50 p-4">
                   <div className="flex items-center justify-between gap-3">
                     <div>
-                      <p className="text-white font-semibold">{item.descripcion}</p>
+                      <p className="text-white font-semibold">{fixText(item.descripcion)}</p>
                       <p className="text-xs text-slate-400">{item.fecha}</p>
                     </div>
                     <div className="flex items-center gap-3">
