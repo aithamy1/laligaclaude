@@ -27,35 +27,35 @@ import {
      partidos: Partido[]
      total_partidos: number
    }
-+  combinadas?: {
-+    nombre: string
-+    fuente_cuotas: string
-+    jornada: string
-+    apuestas: {
-+      id: string
-+      nombre: string
-+      cuota_total: number
-+      probabilidad_estimada: number
-+      estado: string
-+      picks: {
-+        partido: string
-+        seleccion: string
-+        cuota: number
-+        casa: string
-+      }[]
-+    }[]
-+  }
-+  historial?: {
-+    nombre: string
-+    combinadas: {
-+      id: string
-+      fecha: string
-+      descripcion: string
-+      cuota_total: number
-+      probabilidad_estimada: number
-+      resultado: string
-+    }[]
-+  }
+  combinadas?: {
+    nombre: string
+    fuente_cuotas: string
+    jornada: string
+    apuestas: {
+      id: string
+      nombre: string
+      cuota_total: number
+      probabilidad_estimada: number
+      estado: string
+      picks: {
+        partido: string
+        seleccion: string
+        cuota: number
+        casa: string
+      }[]
+    }[]
+  }
+  historial?: {
+    nombre: string
+    combinadas: {
+      id: string
+      fecha: string
+      descripcion: string
+      cuota_total: number
+      probabilidad_estimada: number
+      resultado: string
+    }[]
+  }
    metricas_validacion: {
      brier_score: number
      log_loss: number
