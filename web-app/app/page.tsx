@@ -5,7 +5,7 @@ import {
   Trophy, TrendingUp, Target, Clock, MapPin, Calendar, ArrowRight, 
   ChevronDown, ChevronUp, Zap, Award, CheckCircle, XCircle, 
   BarChart3, Activity, Info, Shield
-} from 'lucide-react
+} from 'lucide-react'
  
  interface PicksData {
    fecha_generacion: string
