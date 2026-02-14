@@ -15,16 +15,21 @@ function checkNoGitDiffHeader(filePath) {
   if (firstLine.startsWith('diff --git ')) {
     fail(
       `${path.relative(root, filePath)} parece contener un patch git pegado por error. ` +
-      `Abre el archivo y elimina las líneas que empiecen por "diff --git", "index", "---", "+++" y "@@".`
+      `Abre el archivo y elimina las lineas que empiecen por "diff --git", "index", "---", "+++" y "@@".`
     )
   }
 }
 
+function stripBom(text) {
+  return text.charCodeAt(0) === 0xfeff ? text.slice(1) : text
+}
+
 function checkJson(filePath) {
   try {
-    JSON.parse(fs.readFileSync(filePath, 'utf8'))
+    const raw = fs.readFileSync(filePath, 'utf8')
+    JSON.parse(stripBom(raw))
   } catch (error) {
-    fail(`${path.relative(root, filePath)} no es JSON válido: ${error.message}`)
+    fail(`${path.relative(root, filePath)} no es JSON valido: ${error.message}`)
   }
 }
 
