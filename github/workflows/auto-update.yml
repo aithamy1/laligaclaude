@@ -1,0 +1,55 @@
+name: Auto Update Picks
+
+on:
+  schedule:
+    - cron: '0 2 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web-app
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy scipy requests
+
+      - name: Generate picks and combinadas
+        env:
+          PICKS_OUTPUT_PATH: public/data/picks_complete.json
+        run: |
+          python scripts/betting_analyzer.py
+          python scripts/generar_combinadas.py
+
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool public/data/picks_complete.json > /dev/null
+          python -m json.tool public/data/combinadas.json > /dev/null
+          python -m json.tool public/data/historial.json > /dev/null
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/*.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(data): auto-update picks, combinadas e historial"
+          git push
