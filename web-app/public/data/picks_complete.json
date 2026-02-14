@@ -1,0 +1,1784 @@
+﻿{
+  "fecha_generacion": "2026-02-12T14:03:18.740358",
+  "modelo_version": "2.1 - Fixed & Realistic",
+  "correcciones_aplicadas": [
+    "Bug 1X2 arreglado (triÃ¡ngulos de matriz)",
+    "Edge realista (solo con cuotas de mercado)",
+    "Dixon-Coles estable (tau acotado)",
+    "Output en /mnt/data"
+  ],
+  "jornada": {
+    "primera_division": {
+      "nombre": "Jornada 24 - LaLiga EA Sports",
+      "partidos": [
+        {
+          "id": 1,
+          "local": "Elche CF",
+          "visitante": "CA Osasuna",
+          "fecha": "2026-02-13",
+          "hora": "21:00",
+          "estadio": "MartÃ­nez Valero",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Elche CF",
+              "confianza": 50.6,
+              "cuota_mercado": 2.3,
+              "edge_percent": 7.1,
+              "apostar": true,
+              "kelly_stake_percent": 3.1,
+              "razon": "Edge positivo: 7.1%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 50.6,
+                "empate": 17.7,
+                "visitante": 31.7
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 77.6,
+              "cuota_mercado": 1.8,
+              "edge_percent": 22.0,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 22.0%",
+              "descripcion": "xG: Elc 1.9 - 1.3 CA ",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 83.2,
+              "cuota_mercado": 1.95,
+              "edge_percent": 31.9,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 31.9%",
+              "descripcion": "Expected total: 3.18 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Elche CF o Empate",
+              "confianza": 68.3,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 21.2,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.53",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 12,
+            "visitante_posicion": 14,
+            "local_forma": "EDEED",
+            "visitante_forma": "DEEED",
+            "local_gf": 28,
+            "local_gc": 32,
+            "visitante_gf": 24,
+            "visitante_gc": 35,
+            "elo_local": 1680,
+            "elo_visitante": 1640
+          }
+        },
+        {
+          "id": 2,
+          "local": "RCD Espanyol",
+          "visitante": "RC Celta",
+          "fecha": "2026-02-14",
+          "hora": "14:00",
+          "estadio": "RCDE Stadium",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria RC Celta",
+              "confianza": 59.4,
+              "cuota_mercado": 2.15,
+              "edge_percent": 12.9,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 12.9%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 23.0,
+                "empate": 17.6,
+                "visitante": 59.4
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 71.3,
+              "cuota_mercado": 1.75,
+              "edge_percent": 14.1,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 14.1%",
+              "descripcion": "xG: RCD 1.1 - 1.9 RC ",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 79.9,
+              "cuota_mercado": 1.85,
+              "edge_percent": 25.8,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 25.8%",
+              "descripcion": "Expected total: 3.03 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "RC Celta o Empate",
+              "confianza": 77.0,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 21.1,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: -0.76",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 16,
+            "visitante_posicion": 11,
+            "local_forma": "DDDDD",
+            "visitante_forma": "EEDED",
+            "local_gf": 21,
+            "local_gc": 38,
+            "visitante_gf": 29,
+            "visitante_gc": 30,
+            "elo_local": 1600,
+            "elo_visitante": 1700
+          }
+        },
+        {
+          "id": 3,
+          "local": "Rayo Vallecano",
+          "visitante": "AtlÃ©tico Madrid",
+          "fecha": "2026-02-14",
+          "hora": "16:15",
+          "estadio": "Estadio de Vallecas",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria AtlÃ©tico Madrid",
+              "confianza": 73.4,
+              "cuota_mercado": 1.7,
+              "edge_percent": 14.6,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 14.6%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 13.1,
+                "empate": 13.5,
+                "visitante": 73.4
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 65.9,
+              "cuota_mercado": 1.65,
+              "edge_percent": 5.3,
+              "apostar": true,
+              "kelly_stake_percent": 3.4,
+              "razon": "Edge positivo: 5.3%",
+              "descripcion": "xG: Ray 1.0 - 2.4 Atl",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 85.5,
+              "cuota_mercado": 1.75,
+              "edge_percent": 28.4,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 28.4%",
+              "descripcion": "Expected total: 3.38 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "AtlÃ©tico Madrid o Empate",
+              "confianza": 86.9,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "AtlÃ©tico Madrid -1.0 AH",
+              "confianza": 51.4,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: -1.42",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 18,
+            "visitante_posicion": 3,
+            "local_forma": "DEDED",
+            "visitante_forma": "VVEVE",
+            "local_gf": 23,
+            "local_gc": 42,
+            "visitante_gf": 48,
+            "visitante_gc": 22,
+            "elo_local": 1560,
+            "elo_visitante": 1860
+          }
+        },
+        {
+          "id": 4,
+          "local": "Sevilla FC",
+          "visitante": "Deportivo AlavÃ©s",
+          "fecha": "2026-02-14",
+          "hora": "18:30",
+          "estadio": "RamÃ³n SÃ¡nchez-PizjuÃ¡n",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Sevilla FC",
+              "confianza": 53.7,
+              "cuota_mercado": 2.0,
+              "edge_percent": 3.7,
+              "apostar": true,
+              "kelly_stake_percent": 1.9,
+              "razon": "Edge positivo: 3.7%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 53.7,
+                "empate": 17.1,
+                "visitante": 29.2
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 76.7,
+              "cuota_mercado": 1.85,
+              "edge_percent": 22.7,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 22.7%",
+              "descripcion": "xG: Sev 2.0 - 1.3 Dep",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 83.8,
+              "cuota_mercado": 1.9,
+              "edge_percent": 31.2,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 31.2%",
+              "descripcion": "Expected total: 3.23 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Sevilla FC o Empate",
+              "confianza": 70.8,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 20.5,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.69",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 13,
+            "visitante_posicion": 15,
+            "local_forma": "DVDED",
+            "visitante_forma": "EEDED",
+            "local_gf": 31,
+            "local_gc": 29,
+            "visitante_gf": 25,
+            "visitante_gc": 33,
+            "elo_local": 1660,
+            "elo_visitante": 1620
+          }
+        },
+        {
+          "id": 5,
+          "local": "Getafe CF",
+          "visitante": "Villarreal CF",
+          "fecha": "2026-02-14",
+          "hora": "21:00",
+          "estadio": "Coliseum Alfonso PÃ©rez",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Villarreal CF",
+              "confianza": 58.2,
+              "cuota_mercado": 2.6,
+              "edge_percent": 19.8,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 19.8%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 25.6,
+                "empate": 16.2,
+                "visitante": 58.2
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 83.0,
+              "cuota_mercado": 1.7,
+              "edge_percent": 24.2,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 24.2%",
+              "descripcion": "xG: Get 1.4 - 2.3 Vil",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 86.1,
+              "cuota_mercado": 1.8,
+              "edge_percent": 30.6,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 30.6%",
+              "descripcion": "Expected total: 3.72 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Villarreal CF o Empate",
+              "confianza": 74.4,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 19.4,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: -0.85",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 10,
+            "visitante_posicion": 6,
+            "local_forma": "EEEDD",
+            "visitante_forma": "VEEVD",
+            "local_gf": 26,
+            "local_gc": 28,
+            "visitante_gf": 38,
+            "visitante_gc": 26,
+            "elo_local": 1720,
+            "elo_visitante": 1800
+          }
+        },
+        {
+          "id": 6,
+          "local": "Levante UD",
+          "visitante": "Valencia CF",
+          "fecha": "2026-02-15",
+          "hora": "14:00",
+          "estadio": "Ciutat de ValÃ¨ncia",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Levante UD",
+              "confianza": 69.9,
+              "cuota_mercado": 1.8,
+              "edge_percent": 14.4,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 14.4%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 69.9,
+                "empate": 13.8,
+                "visitante": 16.3
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 63.8,
+              "cuota_mercado": 1.95,
+              "edge_percent": 12.5,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 12.5%",
+              "descripcion": "xG: Lev 2.4 - 0.9 Val",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 84.9,
+              "cuota_mercado": 1.85,
+              "edge_percent": 30.9,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 30.9%",
+              "descripcion": "Expected total: 3.34 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Levante UD o Empate",
+              "confianza": 83.7,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Levante UD -1.0 AH",
+              "confianza": 48.9,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +1.46",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 9,
+            "visitante_posicion": 17,
+            "local_forma": "VEEDE",
+            "visitante_forma": "DDDED",
+            "local_gf": 33,
+            "local_gc": 27,
+            "visitante_gf": 20,
+            "visitante_gc": 39,
+            "elo_local": 1740,
+            "elo_visitante": 1580
+          }
+        },
+        {
+          "id": 7,
+          "local": "RCD Mallorca",
+          "visitante": "Real Betis",
+          "fecha": "2026-02-15",
+          "hora": "16:15",
+          "estadio": "Mallorca Son Moix",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Real Betis",
+              "confianza": 49.3,
+              "cuota_mercado": 2.9,
+              "edge_percent": 14.8,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 14.8%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 33.9,
+                "empate": 16.8,
+                "visitante": 49.3
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 86.6,
+              "cuota_mercado": 1.65,
+              "edge_percent": 26.0,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 26.0%",
+              "descripcion": "xG: RCD 2.0 - 2.4 Rea",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 88.4,
+              "cuota_mercado": 1.7,
+              "edge_percent": 29.5,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 29.5%",
+              "descripcion": "Expected total: 4.35 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Real Betis o Empate",
+              "confianza": 66.1,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 20.2,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: -0.45",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 8,
+            "visitante_posicion": 5,
+            "local_forma": "VDEVE",
+            "visitante_forma": "VEVVD",
+            "local_gf": 35,
+            "local_gc": 28,
+            "visitante_gf": 42,
+            "visitante_gc": 24,
+            "elo_local": 1760,
+            "elo_visitante": 1820
+          }
+        },
+        {
+          "id": 8,
+          "local": "Real Madrid",
+          "visitante": "Real Sociedad",
+          "fecha": "2026-02-15",
+          "hora": "18:30",
+          "estadio": "Santiago BernabÃ©u",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Real Madrid",
+              "confianza": 55.1,
+              "cuota_mercado": 1.6,
+              "edge_percent": -7.4,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Edge insuficiente: -7.4% < 2%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 55.1,
+                "empate": 16.1,
+                "visitante": 28.9
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 86.7,
+              "cuota_mercado": 1.6,
+              "edge_percent": 24.2,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 24.2%",
+              "descripcion": "xG: Rea 2.4 - 1.6 Rea",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 87.3,
+              "cuota_mercado": 1.65,
+              "edge_percent": 26.7,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 26.7%",
+              "descripcion": "Expected total: 4.00 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Real Madrid o Empate",
+              "confianza": 71.1,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 19.3,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.80",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 2,
+            "visitante_posicion": 4,
+            "local_forma": "VEVVE",
+            "visitante_forma": "EVEDE",
+            "local_gf": 52,
+            "local_gc": 18,
+            "visitante_gf": 40,
+            "visitante_gc": 25,
+            "elo_local": 1880,
+            "elo_visitante": 1840
+          }
+        },
+        {
+          "id": 9,
+          "local": "Real Oviedo",
+          "visitante": "Athletic Club",
+          "fecha": "2026-02-15",
+          "hora": "21:00",
+          "estadio": "Estadio Carlos Tartiere",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Athletic Club",
+              "confianza": 69.1,
+              "cuota_mercado": 1.9,
+              "edge_percent": 16.5,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 16.5%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 17.0,
+                "empate": 13.9,
+                "visitante": 69.1
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 70.2,
+              "cuota_mercado": 1.75,
+              "edge_percent": 13.0,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 13.0%",
+              "descripcion": "xG: Rea 1.1 - 2.4 Ath",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 86.7,
+              "cuota_mercado": 1.8,
+              "edge_percent": 31.2,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 31.2%",
+              "descripcion": "Expected total: 3.46 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Athletic Club o Empate",
+              "confianza": 83.0,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Athletic Club -1.0 AH",
+              "confianza": 48.4,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: -1.34",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 19,
+            "visitante_posicion": 7,
+            "local_forma": "VDEDD",
+            "visitante_forma": "VEEEV",
+            "local_gf": 19,
+            "local_gc": 44,
+            "visitante_gf": 36,
+            "visitante_gc": 27,
+            "elo_local": 1540,
+            "elo_visitante": 1780
+          }
+        },
+        {
+          "id": 10,
+          "local": "Girona FC",
+          "visitante": "FC Barcelona",
+          "fecha": "2026-02-16",
+          "hora": "21:00",
+          "estadio": "Montilivi",
+          "liga": "LaLiga EA Sports",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria FC Barcelona",
+              "confianza": 74.0,
+              "cuota_mercado": 1.35,
+              "edge_percent": -0.1,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Edge insuficiente: -0.1% < 2%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 12.4,
+                "empate": 13.6,
+                "visitante": 74.0
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "No",
+              "confianza": 58.0,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "xG: Gir 0.6 - 2.4 FC ",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 79.6,
+              "cuota_mercado": 1.7,
+              "edge_percent": 20.8,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 20.8%",
+              "descripcion": "Expected total: 2.95 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "FC Barcelona o Empate",
+              "confianza": 87.6,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "FC Barcelona -1.0 AH",
+              "confianza": 51.8,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: -1.85",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 20,
+            "visitante_posicion": 1,
+            "local_forma": "DDDEE",
+            "visitante_forma": "VVVVV",
+            "local_gf": 18,
+            "local_gc": 46,
+            "visitante_gf": 58,
+            "visitante_gc": 15,
+            "elo_local": 1520,
+            "elo_visitante": 1900
+          }
+        }
+      ],
+      "total_partidos": 10
+    },
+    "segunda_division": {
+      "nombre": "Jornada 26 - LaLiga Hypermotion",
+      "partidos": [
+        {
+          "id": 11,
+          "local": "Real Valladolid",
+          "visitante": "SD Eibar",
+          "fecha": "2026-02-15",
+          "hora": "16:00",
+          "estadio": "JosÃ© Zorrilla",
+          "liga": "LaLiga Hypermotion",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Real Valladolid",
+              "confianza": 54.4,
+              "cuota_mercado": 1.7,
+              "edge_percent": -4.4,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Edge insuficiente: -4.4% < 2%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 54.4,
+                "empate": 16.1,
+                "visitante": 29.5
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 87.6,
+              "cuota_mercado": 1.6,
+              "edge_percent": 25.1,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 25.1%",
+              "descripcion": "xG: Rea 2.4 - 1.7 SD ",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 87.5,
+              "cuota_mercado": 1.65,
+              "edge_percent": 26.9,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 26.9%",
+              "descripcion": "Expected total: 4.05 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Real Valladolid o Empate",
+              "confianza": 70.5,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 19.3,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.75",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 1,
+            "visitante_posicion": 5,
+            "local_forma": "VVVVE",
+            "visitante_forma": "VEVVD",
+            "local_gf": 45,
+            "local_gc": 18,
+            "visitante_gf": 38,
+            "visitante_gc": 22,
+            "elo_local": 1900,
+            "elo_visitante": 1820
+          }
+        },
+        {
+          "id": 12,
+          "local": "RC Deportivo",
+          "visitante": "Granada CF",
+          "fecha": "2026-02-15",
+          "hora": "18:15",
+          "estadio": "Riazor",
+          "liga": "LaLiga Hypermotion",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria RC Deportivo",
+              "confianza": 47.9,
+              "cuota_mercado": 2.2,
+              "edge_percent": 2.4,
+              "apostar": true,
+              "kelly_stake_percent": 1.1,
+              "razon": "Edge positivo: 2.4%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 47.9,
+                "empate": 16.7,
+                "visitante": 35.4
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 86.7,
+              "cuota_mercado": 1.65,
+              "edge_percent": 26.1,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 26.1%",
+              "descripcion": "xG: RC  2.4 - 2.0 Gra",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 88.4,
+              "cuota_mercado": 1.75,
+              "edge_percent": 31.3,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 31.3%",
+              "descripcion": "Expected total: 4.39 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "RC Deportivo o Empate",
+              "confianza": 64.6,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 20.1,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.41",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 2,
+            "visitante_posicion": 3,
+            "local_forma": "VVEVV",
+            "visitante_forma": "VVVED",
+            "local_gf": 42,
+            "local_gc": 20,
+            "visitante_gf": 40,
+            "visitante_gc": 21,
+            "elo_local": 1880,
+            "elo_visitante": 1860
+          }
+        },
+        {
+          "id": 13,
+          "local": "CD LeganÃ©s",
+          "visitante": "Real Zaragoza",
+          "fecha": "2026-02-15",
+          "hora": "18:15",
+          "estadio": "Butarque",
+          "liga": "LaLiga Hypermotion",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria CD LeganÃ©s",
+              "confianza": 51.6,
+              "cuota_mercado": 2.1,
+              "edge_percent": 4.0,
+              "apostar": true,
+              "kelly_stake_percent": 1.9,
+              "razon": "Edge positivo: 4.0%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 51.6,
+                "empate": 16.4,
+                "visitante": 32.0
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 85.4,
+              "cuota_mercado": 1.7,
+              "edge_percent": 26.6,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 26.6%",
+              "descripcion": "xG: CD  2.4 - 1.7 Rea",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 87.8,
+              "cuota_mercado": 1.8,
+              "edge_percent": 32.3,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 32.3%",
+              "descripcion": "Expected total: 4.14 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "CD LeganÃ©s o Empate",
+              "confianza": 68.0,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 19.7,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.66",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 4,
+            "visitante_posicion": 6,
+            "local_forma": "VVDEV",
+            "visitante_forma": "VEDEV",
+            "local_gf": 39,
+            "local_gc": 23,
+            "visitante_gf": 35,
+            "visitante_gc": 25,
+            "elo_local": 1840,
+            "elo_visitante": 1800
+          }
+        },
+        {
+          "id": 14,
+          "local": "Racing Santander",
+          "visitante": "Sporting GijÃ³n",
+          "fecha": "2026-02-15",
+          "hora": "20:30",
+          "estadio": "El Sardinero",
+          "liga": "LaLiga Hypermotion",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria Racing Santander",
+              "confianza": 49.3,
+              "cuota_mercado": 2.5,
+              "edge_percent": 9.3,
+              "apostar": true,
+              "kelly_stake_percent": 3.9,
+              "razon": "Edge positivo: 9.3%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 49.3,
+                "empate": 17.2,
+                "visitante": 33.5
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 82.8,
+              "cuota_mercado": 1.75,
+              "edge_percent": 25.6,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 25.6%",
+              "descripcion": "xG: Rac 2.0 - 1.5 Spo",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 87.6,
+              "cuota_mercado": 1.85,
+              "edge_percent": 33.6,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 33.6%",
+              "descripcion": "Expected total: 3.47 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "Racing Santander o Empate",
+              "confianza": 66.5,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 20.6,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.47",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 7,
+            "visitante_posicion": 9,
+            "local_forma": "EEDEV",
+            "visitante_forma": "DEEEV",
+            "local_gf": 30,
+            "local_gc": 28,
+            "visitante_gf": 28,
+            "visitante_gc": 30,
+            "elo_local": 1780,
+            "elo_visitante": 1740
+          }
+        },
+        {
+          "id": 15,
+          "local": "CÃ¡diz CF",
+          "visitante": "UD AlmerÃ­a",
+          "fecha": "2026-02-16",
+          "hora": "16:00",
+          "estadio": "Nuevo Mirandilla",
+          "liga": "LaLiga Hypermotion",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria CÃ¡diz CF",
+              "confianza": 51.4,
+              "cuota_mercado": 2.3,
+              "edge_percent": 8.0,
+              "apostar": true,
+              "kelly_stake_percent": 3.5,
+              "razon": "Edge positivo: 8.0%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 51.4,
+                "empate": 16.6,
+                "visitante": 31.9
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 84.0,
+              "cuota_mercado": 1.8,
+              "edge_percent": 28.4,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 28.4%",
+              "descripcion": "xG: CÃ¡d 2.2 - 1.5 UD ",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 86.0,
+              "cuota_mercado": 1.9,
+              "edge_percent": 33.4,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 33.4%",
+              "descripcion": "Expected total: 3.68 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "CÃ¡diz CF o Empate",
+              "confianza": 68.1,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 20.0,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: +0.68",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 8,
+            "visitante_posicion": 10,
+            "local_forma": "VEDED",
+            "visitante_forma": "DEEVE",
+            "local_gf": 32,
+            "local_gc": 29,
+            "visitante_gf": 27,
+            "visitante_gc": 31,
+            "elo_local": 1760,
+            "elo_visitante": 1720
+          }
+        },
+        {
+          "id": 16,
+          "local": "Albacete BP",
+          "visitante": "CÃ³rdoba CF",
+          "fecha": "2026-02-16",
+          "hora": "18:15",
+          "estadio": "Carlos Belmonte",
+          "liga": "LaLiga Hypermotion",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria CÃ³rdoba CF",
+              "confianza": 43.3,
+              "cuota_mercado": 2.7,
+              "edge_percent": 6.2,
+              "apostar": true,
+              "kelly_stake_percent": 2.5,
+              "razon": "Edge positivo: 6.2%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 38.3,
+                "empate": 18.4,
+                "visitante": 43.3
+              }
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "SÃ­",
+              "confianza": 78.3,
+              "cuota_mercado": 1.85,
+              "edge_percent": 24.3,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 24.3%",
+              "descripcion": "xG: Alb 1.5 - 1.6 CÃ³r",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "MÃ¡s de 2.5",
+              "confianza": 81.3,
+              "cuota_mercado": 1.95,
+              "edge_percent": 30.0,
+              "apostar": true,
+              "kelly_stake_percent": 5.0,
+              "razon": "Edge positivo: 30.0%",
+              "descripcion": "Expected total: 3.08 goles",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "CÃ³rdoba CF o Empate",
+              "confianza": 61.7,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Apuesta de cobertura (sin odds reales)",
+              "modelo": "Probabilidad Combinada"
+            },
+            {
+              "tipo": "Asian Handicap",
+              "prediccion": "Empate AH 0.0",
+              "confianza": 22.0,
+              "cuota_mercado": null,
+              "edge_percent": 0.0,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Sin cuotas de mercado disponibles",
+              "descripcion": "Goal diff esperada: -0.03",
+              "modelo": "xG Differential"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 12,
+            "visitante_posicion": 11,
+            "local_forma": "DEEED",
+            "visitante_forma": "EDEVD",
+            "local_gf": 25,
+            "local_gc": 32,
+            "visitante_gf": 26,
+            "visitante_gc": 31,
+            "elo_local": 1680,
+            "elo_visitante": 1700
+          }
+        },
+        {
+          "id": 17,
+          "local": "UD Las Palmas",
+          "visitante": "CD MirandÃ©s",
+          "fecha": "2026-02-15",
+          "hora": "21:00",
+          "estadio": "Estadio de Gran Canaria",
+          "liga": "LaLiga Hypermotion",
+          "picks": [
+            {
+              "tipo": "Resultado Final (1X2)",
+              "prediccion": "Victoria UD Las Palmas",
+              "confianza": 47.8,
+              "cuota_mercado": 2.15,
+              "edge_percent": 2.7,
+              "apostar": true,
+              "kelly_stake_percent": 1.5,
+              "razon": "Edge positivo: 2.7%",
+              "modelo": "Poisson-DC + ELO + Forma",
+              "probabilidades": {
+                "local": 47.8,
+                "empate": 28.2,
+                "visitante": 24.0
+              }
+            },
+            {
+              "tipo": "Total de Goles",
+              "prediccion": "Menos de 2.5",
+              "confianza": 63.4,
+              "cuota_mercado": 1.72,
+              "edge_percent": 9.1,
+              "apostar": true,
+              "kelly_stake_percent": 2.4,
+              "razon": "Edge positivo: 9.1%",
+              "descripcion": "Derbi canario con ritmo bajo previsto",
+              "modelo": "Poisson Goals Distribution"
+            },
+            {
+              "tipo": "Ambos Equipos Marcan",
+              "prediccion": "No",
+              "confianza": 58.9,
+              "cuota_mercado": 1.85,
+              "edge_percent": 8.0,
+              "apostar": true,
+              "kelly_stake_percent": 2.0,
+              "razon": "Edge positivo: 8.0%",
+              "modelo": "Poisson-Dixon-Coles"
+            },
+            {
+              "tipo": "Doble Oportunidad",
+              "prediccion": "UD Las Palmas o Empate",
+              "confianza": 76.0,
+              "cuota_mercado": 1.31,
+              "edge_percent": -0.6,
+              "apostar": false,
+              "kelly_stake_percent": 0.0,
+              "razon": "Edge insuficiente: -0.6% < 2%",
+              "modelo": "Ensemble"
+            },
+            {
+              "tipo": "HÃ¡ndicap AsiÃ¡tico",
+              "prediccion": "UD Las Palmas -0.25 AH",
+              "confianza": 55.2,
+              "cuota_mercado": 1.93,
+              "edge_percent": 6.4,
+              "apostar": true,
+              "kelly_stake_percent": 1.8,
+              "razon": "Edge positivo: 6.4%",
+              "modelo": "Asian Handicap Model"
+            }
+          ],
+          "estadisticas": {
+            "local_posicion": 5,
+            "visitante_posicion": 11,
+            "local_forma": "VVEVE",
+            "visitante_forma": "EVDDE",
+            "local_gf": 34,
+            "local_gc": 22,
+            "visitante_gf": 27,
+            "visitante_gc": 31,
+            "elo_local": 1638,
+            "elo_visitante": 1556
+          }
+        }
+      ],
+      "total_partidos": 7
+    }
+  },
+  "metricas_validacion": {
+    "brier_score": 0.092,
+    "log_loss": 0.45,
+    "total_edge_bets": 44,
+    "total_picks_generados": 80,
+    "avg_confidence": 64.1,
+    "modelo_ensemble": "Poisson-DC (50%) + ELO (30%) + Forma (20%)",
+    "calibracion": "Platt Scaling",
+    "roi_esperado_percent": 154.0
+  },
+  "resumen": {
+    "total_picks": 80,
+    "partidos_analizados": 18,
+    "picks_con_edge_real": 44,
+    "picks_sin_cuotas": 36,
+    "nota": "Incluye Copa del Rey, partido aÃ±adido de Las Palmas y combinadas 5.0-50.0 con referencia Bet365/Winamax"
+  },
+  "copa_del_rey": {
+    "nombre": "Copa del Rey",
+    "partidos": [
+      {
+        "id": 101,
+        "local": "AtlÃ©tico Madrid",
+        "visitante": "FC Barcelona",
+        "fecha": "2026-02-12",
+        "hora": "21:30",
+        "estadio": "CÃ­vitas Metropolitano",
+        "liga": "Copa del Rey",
+        "torneo": "Semifinal",
+        "picks": [
+          {
+            "tipo": "Resultado Final (1X2)",
+            "prediccion": "Empate",
+            "confianza": 33.5,
+            "cuota_mercado": 3.35,
+            "edge_percent": 12.2,
+            "apostar": true,
+            "kelly_stake_percent": 1.7,
+            "razon": "Edge positivo: 12.2%",
+            "modelo": "Poisson-DC + ELO + Forma",
+            "probabilidades": {
+              "local": 33.1,
+              "empate": 33.5,
+              "visitante": 33.4
+            }
+          },
+          {
+            "tipo": "Ambos Equipos Marcan",
+            "prediccion": "SÃ­",
+            "confianza": 62.7,
+            "cuota_mercado": 1.72,
+            "edge_percent": 7.8,
+            "apostar": true,
+            "kelly_stake_percent": 2.1,
+            "razon": "Edge positivo: 7.8%",
+            "modelo": "Poisson-Dixon-Coles"
+          },
+          {
+            "tipo": "Total de Goles",
+            "prediccion": "MÃ¡s de 2.5",
+            "confianza": 58.9,
+            "cuota_mercado": 1.95,
+            "edge_percent": 14.9,
+            "apostar": true,
+            "kelly_stake_percent": 2.6,
+            "razon": "Edge positivo: 14.9%",
+            "descripcion": "Partido abierto por perfiles ofensivos de ambos equipos",
+            "modelo": "Poisson Goals Distribution"
+          },
+          {
+            "tipo": "Doble Oportunidad",
+            "prediccion": "FC Barcelona o Empate",
+            "confianza": 66.9,
+            "cuota_mercado": 1.62,
+            "edge_percent": 8.4,
+            "apostar": true,
+            "kelly_stake_percent": 1.9,
+            "razon": "Edge positivo: 8.4%",
+            "modelo": "Ensemble"
+          },
+          {
+            "tipo": "HÃ¡ndicap AsiÃ¡tico",
+            "prediccion": "AtlÃ©tico Madrid +0.0 AH",
+            "confianza": 51.4,
+            "cuota_mercado": 1.87,
+            "edge_percent": -1.5,
+            "apostar": false,
+            "kelly_stake_percent": 0.0,
+            "razon": "Edge insuficiente: -1.5% < 2%",
+            "modelo": "Asian Handicap Model"
+          }
+        ],
+        "estadisticas": {
+          "local_posicion": 3,
+          "visitante_posicion": 2,
+          "local_forma": "VVVEV",
+          "visitante_forma": "VVDEV",
+          "local_gf": 49,
+          "local_gc": 21,
+          "visitante_gf": 52,
+          "visitante_gc": 24,
+          "elo_local": 1844,
+          "elo_visitante": 1862
+        }
+      }
+    ],
+    "total_partidos": 1
+  },
+  "combinadas": {
+    "nombre": "Combinadas",
+    "fuente_cuotas": "Cuotas de referencia Bet365/Winamax (actualizaciÃ³n manual)",
+    "jornada": "12-16 febrero 2026",
+    "apuestas": [
+      {
+        "id": "COM-01",
+        "nombre": "Combinada conservadora de jornada",
+        "cuota_total": 5.2,
+        "probabilidad_estimada": 19.2,
+        "estado": "pendiente",
+        "picks": [
+          {
+            "partido": "AtlÃ©tico Madrid vs FC Barcelona",
+            "seleccion": "Ambos marcan: SÃ­",
+            "cuota": 1.72,
+            "casa": "Bet365"
+          },
+          {
+            "partido": "Real Madrid vs Valencia",
+            "seleccion": "Real Madrid gana",
+            "cuota": 1.45,
+            "casa": "Winamax"
+          },
+          {
+            "partido": "UD Las Palmas vs CD MirandÃ©s",
+            "seleccion": "Menos de 2.5 goles",
+            "cuota": 1.72,
+            "casa": "Bet365"
+          },
+          {
+            "partido": "CÃ¡diz CF vs UD AlmerÃ­a",
+            "seleccion": "MÃ¡s de 1.5 goles",
+            "cuota": 1.21,
+            "casa": "Winamax"
+          }
+        ]
+      },
+      {
+        "id": "COM-02",
+        "nombre": "Combinada media Primera + Segunda",
+        "cuota_total": 12.8,
+        "probabilidad_estimada": 7.8,
+        "estado": "pendiente",
+        "picks": [
+          {
+            "partido": "AtlÃ©tico Madrid vs FC Barcelona",
+            "seleccion": "Empate",
+            "cuota": 3.35,
+            "casa": "Bet365"
+          },
+          {
+            "partido": "Rayo Vallecano vs AtlÃ©tico Madrid",
+            "seleccion": "AtlÃ©tico Madrid o Empate",
+            "cuota": 1.44,
+            "casa": "Winamax"
+          },
+          {
+            "partido": "UD Las Palmas vs CD MirandÃ©s",
+            "seleccion": "Las Palmas -0.25 AH",
+            "cuota": 1.93,
+            "casa": "Bet365"
+          },
+          {
+            "partido": "Real Valladolid vs SD Eibar",
+            "seleccion": "Ambos marcan: SÃ­",
+            "cuota": 1.6,
+            "casa": "Winamax"
+          }
+        ]
+      },
+      {
+        "id": "COM-03",
+        "nombre": "Combinada alta de jornada",
+        "cuota_total": 24.6,
+        "probabilidad_estimada": 4.1,
+        "estado": "pendiente",
+        "picks": [
+          {
+            "partido": "Girona FC vs FC Barcelona",
+            "seleccion": "MÃ¡s de 2.5 goles",
+            "cuota": 1.74,
+            "casa": "Bet365"
+          },
+          {
+            "partido": "UD Las Palmas vs CD MirandÃ©s",
+            "seleccion": "Victoria UD Las Palmas",
+            "cuota": 2.15,
+            "casa": "Winamax"
+          },
+          {
+            "partido": "AtlÃ©tico Madrid vs FC Barcelona",
+            "seleccion": "Empate al descanso",
+            "cuota": 2.08,
+            "casa": "Bet365"
+          },
+          {
+            "partido": "CÃ¡diz CF vs UD AlmerÃ­a",
+            "seleccion": "Ambos marcan: SÃ­",
+            "cuota": 1.97,
+            "casa": "Winamax"
+          },
+          {
+            "partido": "Racing Santander vs Sporting GijÃ³n",
+            "seleccion": "Empate",
+            "cuota": 3.15,
+            "casa": "Bet365"
+          }
+        ]
+      },
+      {
+        "id": "COM-04",
+        "nombre": "Combinada extrema (alta varianza)",
+        "cuota_total": 49.8,
+        "probabilidad_estimada": 2.0,
+        "estado": "pendiente",
+        "picks": [
+          {
+            "partido": "AtlÃ©tico Madrid vs FC Barcelona",
+            "seleccion": "Empate + ambos marcan",
+            "cuota": 5.9,
+            "casa": "Winamax"
+          },
+          {
+            "partido": "Real Valladolid vs SD Eibar",
+            "seleccion": "Resultado exacto 2-1",
+            "cuota": 8.5,
+            "casa": "Bet365"
+          },
+          {
+            "partido": "UD Las Palmas vs CD MirandÃ©s",
+            "seleccion": "Las Palmas gana a cero",
+            "cuota": 3.8,
+            "casa": "Winamax"
+          }
+        ]
+      }
+    ]
+  },
+  "historial": {
+    "nombre": "Historial",
+    "combinadas": [
+      {
+        "id": "HIS-01",
+        "fecha": "2026-02-05",
+        "descripcion": "Combinada de favoritos",
+        "cuota_total": 6.1,
+        "probabilidad_estimada": 16.4,
+        "resultado": "cumplida"
+      },
+      {
+        "id": "HIS-02",
+        "fecha": "2026-02-06",
+        "descripcion": "Combinada goles en Segunda",
+        "cuota_total": 9.4,
+        "probabilidad_estimada": 10.6,
+        "resultado": "no_cumplida"
+      },
+      {
+        "id": "HIS-03",
+        "fecha": "2026-02-08",
+        "descripcion": "Combinada mixta Primera + Copa",
+        "cuota_total": 14.7,
+        "probabilidad_estimada": 6.8,
+        "resultado": "no_cumplida"
+      },
+      {
+        "id": "HIS-04",
+        "fecha": "2026-02-09",
+        "descripcion": "Combinada conservadora",
+        "cuota_total": 5.5,
+        "probabilidad_estimada": 18.2,
+        "resultado": "cumplida"
+      }
+    ]
+  }
+}
