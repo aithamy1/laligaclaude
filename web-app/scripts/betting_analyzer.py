@@ -9,6 +9,7 @@ Correcciones implementadas:
 """
 
 import json
+import os
 import numpy as np
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
@@ -688,8 +689,8 @@ def main():
     analyzer = AdvancedBettingAnalyzer()
     reporte = analyzer.generar_reporte_completo()
     
-    # FIX 4: Guardar en /mnt/user-data/outputs
-    output_path = '/mnt/user-data/outputs/picks_fixed.json'
+    # Guardar en ruta del repositorio para que GitHub Actions pueda commitear cambios
+    output_path = os.getenv('PICKS_OUTPUT_PATH', 'public/data/picks_complete.json')
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(reporte, f, ensure_ascii=False, indent=2)
     
