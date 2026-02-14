@@ -81,7 +81,6 @@ import {
          setLoading(false)
        })
        .catch(err => {
-@@ -516,50 +545,131 @@ export default function Home() {
                                <span>Apostar con Edge</span>
                                <ArrowRight className="w-4 h-4" />
                              </button>
