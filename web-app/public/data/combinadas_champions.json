@@ -1,0 +1,282 @@
+{
+  "fecha_generacion": "2026-02-17T12:00:00",
+  "competicion": "UEFA Champions League - Play-offs Ida",
+  "nota": "Solo picks con 70%+ de probabilidad. Sin repeticion de partidos entre combinadas.",
+  "combinadas": [
+    {
+      "id": "cl_001",
+      "nombre": "Favoritos Champions - Cuota 6.3",
+      "cuota_total": 6.28,
+      "probabilidad": 15.9,
+      "num_picks": 4,
+      "kelly_sugerido": 2.1,
+      "roi_esperado": 59.8,
+      "categoria": "value",
+      "estado": "pendiente",
+      "picks": [
+        {
+          "partido": "Benfica vs Real Madrid",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.78,
+          "confianza": 76.9,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Borussia Dortmund vs Atalanta",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.65,
+          "confianza": 78.4,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Bodo/Glimt vs Inter Milan",
+          "pick": "Victoria Inter Milan",
+          "cuota": 1.80,
+          "confianza": 71.6,
+          "fecha": "18/02 21:00"
+        },
+        {
+          "partido": "Olympiakos vs Bayer Leverkusen",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.80,
+          "confianza": 75.4,
+          "fecha": "18/02 21:00"
+        }
+      ]
+    },
+    {
+      "id": "cl_002",
+      "nombre": "Goles Champions Night - Cuota 9.1",
+      "cuota_total": 9.12,
+      "probabilidad": 10.9,
+      "num_picks": 4,
+      "kelly_sugerido": 1.6,
+      "roi_esperado": 62.4,
+      "categoria": "medium",
+      "estado": "pendiente",
+      "picks": [
+        {
+          "partido": "Galatasaray vs Juventus",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.72,
+          "confianza": 71.2,
+          "fecha": "17/02 18:45"
+        },
+        {
+          "partido": "Monaco vs PSG",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.80,
+          "confianza": 72.9,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Qarabag vs Newcastle",
+          "pick": "Victoria Newcastle United",
+          "cuota": 1.90,
+          "confianza": 67.4,
+          "fecha": "18/02 18:45"
+        },
+        {
+          "partido": "Brujas vs Atletico Madrid",
+          "pick": "Atletico o Empate (X2)",
+          "cuota": 1.50,
+          "confianza": 71.4,
+          "fecha": "18/02 21:00"
+        }
+      ]
+    },
+    {
+      "id": "cl_003",
+      "nombre": "Equipos Top Europa - Cuota 12.4",
+      "cuota_total": 12.38,
+      "probabilidad": 8.1,
+      "num_picks": 4,
+      "kelly_sugerido": 1.2,
+      "roi_esperado": 68.7,
+      "categoria": "medium-high",
+      "estado": "pendiente",
+      "picks": [
+        {
+          "partido": "Monaco vs PSG",
+          "pick": "Victoria PSG",
+          "cuota": 2.00,
+          "confianza": 61.8,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Bodo/Glimt vs Inter Milan",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.82,
+          "confianza": 73.8,
+          "fecha": "18/02 21:00"
+        },
+        {
+          "partido": "Olympiakos vs Bayer Leverkusen",
+          "pick": "Victoria Bayer Leverkusen",
+          "cuota": 2.10,
+          "confianza": 62.4,
+          "fecha": "18/02 21:00"
+        },
+        {
+          "partido": "Qarabag vs Newcastle",
+          "pick": "Newcastle o Empate (X2)",
+          "cuota": 1.42,
+          "confianza": 80.8,
+          "fecha": "18/02 18:45"
+        }
+      ]
+    },
+    {
+      "id": "cl_004",
+      "nombre": "Defensas Solidas - Cuota 7.8",
+      "cuota_total": 7.84,
+      "probabilidad": 12.7,
+      "num_picks": 4,
+      "kelly_sugerido": 1.8,
+      "roi_esperado": 51.3,
+      "categoria": "value",
+      "estado": "pendiente",
+      "picks": [
+        {
+          "partido": "Brujas vs Atletico Madrid",
+          "pick": "Menos de 2.5 goles",
+          "cuota": 1.85,
+          "confianza": 74.2,
+          "fecha": "18/02 21:00"
+        },
+        {
+          "partido": "Brujas vs Atletico Madrid",
+          "pick": "Ambos Equipos Marcan - No",
+          "cuota": 1.78,
+          "confianza": 70.8,
+          "fecha": "18/02 21:00"
+        },
+        {
+          "partido": "Benfica vs Real Madrid",
+          "pick": "Victoria Real Madrid",
+          "cuota": 2.05,
+          "confianza": 58.3,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Borussia Dortmund vs Atalanta",
+          "pick": "Dortmund o Empate (1X)",
+          "cuota": 1.45,
+          "confianza": 70.0,
+          "fecha": "17/02 21:00"
+        }
+      ]
+    },
+    {
+      "id": "cl_005",
+      "nombre": "Power Combo Champions - Cuota 18.7",
+      "cuota_total": 18.72,
+      "probabilidad": 5.3,
+      "num_picks": 5,
+      "kelly_sugerido": 0.8,
+      "roi_esperado": 141.3,
+      "categoria": "high",
+      "estado": "pendiente",
+      "picks": [
+        {
+          "partido": "Benfica vs Real Madrid",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.68,
+          "confianza": 73.6,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Borussia Dortmund vs Atalanta",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.72,
+          "confianza": 81.2,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Monaco vs PSG",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.75,
+          "confianza": 70.3,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Bodo/Glimt vs Inter Milan",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.70,
+          "confianza": 70.1,
+          "fecha": "18/02 21:00"
+        },
+        {
+          "partido": "Olympiakos vs Bayer Leverkusen",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.72,
+          "confianza": 72.6,
+          "fecha": "18/02 21:00"
+        }
+      ]
+    },
+    {
+      "id": "cl_006",
+      "nombre": "Monster Champions - Cuota 34.6",
+      "cuota_total": 34.58,
+      "probabilidad": 2.9,
+      "num_picks": 6,
+      "kelly_sugerido": 0.4,
+      "roi_esperado": 523.8,
+      "categoria": "ultra-high",
+      "estado": "pendiente",
+      "picks": [
+        {
+          "partido": "Galatasaray vs Juventus",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.85,
+          "confianza": 74.8,
+          "fecha": "17/02 18:45"
+        },
+        {
+          "partido": "Benfica vs Real Madrid",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.78,
+          "confianza": 76.9,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Borussia Dortmund vs Atalanta",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.65,
+          "confianza": 78.4,
+          "fecha": "17/02 21:00"
+        },
+        {
+          "partido": "Qarabag vs Newcastle",
+          "pick": "Mas de 2.5 goles",
+          "cuota": 1.85,
+          "confianza": 71.3,
+          "fecha": "18/02 18:45"
+        },
+        {
+          "partido": "Bodo/Glimt vs Inter Milan",
+          "pick": "Ambos Equipos Marcan - Si",
+          "cuota": 1.70,
+          "confianza": 70.1,
+          "fecha": "18/02 21:00"
+        },
+        {
+          "partido": "Olympiakos vs Bayer Leverkusen",
+          "pick": "Leverkusen o Empate (X2)",
+          "cuota": 1.45,
+          "confianza": 75.2,
+          "fecha": "18/02 21:00"
+        }
+      ]
+    }
+  ],
+  "estadisticas": {
+    "total_combinadas": 6,
+    "cuota_minima": 6.28,
+    "cuota_maxima": 34.58,
+    "probabilidad_promedio": 9.3,
+    "picks_con_70_plus": 22,
+    "partidos_cubiertos": 8
+  }
+}

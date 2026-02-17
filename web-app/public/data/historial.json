@@ -1,0 +1,26 @@
+{
+  "ultima_actualizacion": "2026-02-17T12:00:00",
+  "jornadas": [
+    {
+      "jornada": "Champions Play-offs Ida — Feb 17-18",
+      "fecha_inicio": "2026-02-17",
+      "fecha_fin": "2026-02-18",
+      "estado": "pendiente",
+      "combinadas": [
+        { "id": "cl_001", "nombre": "Favoritos Champions - Cuota 6.3", "cuota_total": 6.28, "probabilidad": 15.9, "estado": "pendiente", "picks": [ {"partido": "Benfica vs Real Madrid", "pick": "Mas de 2.5 goles", "cuota": 1.78, "confianza": 76.9}, {"partido": "BVB vs Atalanta", "pick": "BTTS Si", "cuota": 1.65, "confianza": 78.4}, {"partido": "Bodo vs Inter Milan", "pick": "Victoria Inter", "cuota": 1.80, "confianza": 71.6}, {"partido": "Olympiakos vs Leverkusen", "pick": "Mas 2.5", "cuota": 1.80, "confianza": 75.4} ] },
+        { "id": "cl_002", "nombre": "Goles Champions Night - Cuota 9.1", "cuota_total": 9.12, "probabilidad": 10.9, "estado": "pendiente", "picks": [ {"partido": "Galatasaray vs Juventus", "pick": "BTTS Si", "cuota": 1.72, "confianza": 71.2}, {"partido": "Monaco vs PSG", "pick": "Mas 2.5", "cuota": 1.80, "confianza": 72.9}, {"partido": "Qarabag vs Newcastle", "pick": "Victoria Newcastle", "cuota": 1.90, "confianza": 67.4}, {"partido": "Brujas vs Atletico", "pick": "X2", "cuota": 1.50, "confianza": 71.4} ] },
+        { "id": "cl_003", "nombre": "Equipos Top Europa - Cuota 12.4", "cuota_total": 12.38, "probabilidad": 8.1, "estado": "pendiente", "picks": [ {"partido": "Monaco vs PSG", "pick": "Victoria PSG", "cuota": 2.00, "confianza": 61.8}, {"partido": "Bodo vs Inter", "pick": "Mas 2.5", "cuota": 1.82, "confianza": 73.8}, {"partido": "Olympiakos vs Leverkusen", "pick": "Victoria Leverkusen", "cuota": 2.10, "confianza": 62.4}, {"partido": "Qarabag vs Newcastle", "pick": "X2 Newcastle", "cuota": 1.42, "confianza": 80.8} ] },
+        { "id": "cl_004", "nombre": "Defensas Solidas - Cuota 7.8", "cuota_total": 7.84, "probabilidad": 12.7, "estado": "pendiente", "picks": [ {"partido": "Brujas vs Atletico", "pick": "Menos 2.5", "cuota": 1.85, "confianza": 74.2}, {"partido": "Brujas vs Atletico", "pick": "BTTS No", "cuota": 1.78, "confianza": 70.8}, {"partido": "Benfica vs Real Madrid", "pick": "Victoria Madrid", "cuota": 2.05, "confianza": 58.3}, {"partido": "BVB vs Atalanta", "pick": "1X Dortmund", "cuota": 1.45, "confianza": 70.0} ] },
+        { "id": "cl_005", "nombre": "Power Combo Champions - Cuota 18.7", "cuota_total": 18.72, "probabilidad": 5.3, "estado": "pendiente", "picks": [ {"partido": "Benfica vs Real Madrid", "pick": "BTTS Si", "cuota": 1.68, "confianza": 73.6}, {"partido": "BVB vs Atalanta", "pick": "Mas 2.5", "cuota": 1.72, "confianza": 81.2}, {"partido": "Monaco vs PSG", "pick": "BTTS Si", "cuota": 1.75, "confianza": 70.3}, {"partido": "Bodo vs Inter", "pick": "BTTS Si", "cuota": 1.70, "confianza": 70.1}, {"partido": "Olympiakos vs Leverkusen", "pick": "BTTS Si", "cuota": 1.72, "confianza": 72.6} ] },
+        { "id": "cl_006", "nombre": "Monster Champions - Cuota 34.6", "cuota_total": 34.58, "probabilidad": 2.9, "estado": "pendiente", "picks": [ {"partido": "Galatasaray vs Juventus", "pick": "Mas 2.5", "cuota": 1.85, "confianza": 74.8}, {"partido": "Benfica vs Real Madrid", "pick": "Mas 2.5", "cuota": 1.78, "confianza": 76.9}, {"partido": "BVB vs Atalanta", "pick": "BTTS Si", "cuota": 1.65, "confianza": 78.4}, {"partido": "Qarabag vs Newcastle", "pick": "Mas 2.5", "cuota": 1.85, "confianza": 71.3}, {"partido": "Bodo vs Inter", "pick": "BTTS Si", "cuota": 1.70, "confianza": 70.1}, {"partido": "Olympiakos vs Leverkusen", "pick": "X2 Leverkusen", "cuota": 1.45, "confianza": 75.2} ] }
+      ]
+    }
+  ],
+  "estadisticas_globales": {
+    "combinadas_totales": 6,
+    "combinadas_acertadas": 0,
+    "combinadas_falladas": 0,
+    "tasa_acierto_global": "0%",
+    "roi_global": 0
+  }
+}
